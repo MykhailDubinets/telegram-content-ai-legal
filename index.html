@@ -1,0 +1,156 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Tik News Open Bot</title>
+  <meta name="description" content="AI-powered content creation and publishing for Telegram channel administrators.">
+  <style>
+    :root {
+      color-scheme: dark;
+      --bg: #0b0d12;
+      --card: #131720;
+      --text: #f5f7fa;
+      --muted: #a8b0bd;
+      --line: #262c37;
+      --accent: #ffffff;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      min-height: 100vh;
+      font-family: Inter, Arial, sans-serif;
+      background: var(--bg);
+      color: var(--text);
+      line-height: 1.6;
+    }
+    .wrap {
+      width: min(920px, calc(100% - 40px));
+      margin: 0 auto;
+      padding: 80px 0 60px;
+    }
+    .badge {
+      display: inline-block;
+      padding: 7px 12px;
+      border: 1px solid var(--line);
+      border-radius: 999px;
+      color: var(--muted);
+      font-size: 13px;
+      letter-spacing: .02em;
+    }
+    h1 {
+      margin: 22px 0 16px;
+      font-size: clamp(42px, 8vw, 76px);
+      line-height: .98;
+      letter-spacing: -0.045em;
+    }
+    .lead {
+      max-width: 680px;
+      margin: 0;
+      color: var(--muted);
+      font-size: 20px;
+    }
+    .buttons {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 12px;
+      margin: 34px 0 64px;
+    }
+    a.button {
+      display: inline-block;
+      padding: 12px 18px;
+      border-radius: 10px;
+      border: 1px solid var(--line);
+      color: var(--text);
+      text-decoration: none;
+      font-weight: 600;
+    }
+    a.primary {
+      background: var(--accent);
+      color: #0b0d12;
+      border-color: var(--accent);
+    }
+    .grid {
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+      gap: 14px;
+    }
+    .card {
+      padding: 22px;
+      border: 1px solid var(--line);
+      border-radius: 14px;
+      background: var(--card);
+    }
+    .card h2 {
+      margin: 0 0 8px;
+      font-size: 18px;
+    }
+    .card p {
+      margin: 0;
+      color: var(--muted);
+      font-size: 15px;
+    }
+    footer {
+      margin-top: 70px;
+      padding-top: 24px;
+      border-top: 1px solid var(--line);
+      color: var(--muted);
+      font-size: 14px;
+    }
+    footer a {
+      color: var(--text);
+      text-decoration: none;
+      margin-right: 18px;
+    }
+    @media (max-width: 700px) {
+      .wrap { padding-top: 50px; }
+      .grid { grid-template-columns: 1fr; }
+      .lead { font-size: 18px; }
+    }
+  </style>
+</head>
+<body>
+  <main class="wrap">
+    <span class="badge">Tik News Open Bot</span>
+
+    <h1>Turn Telegram news into social content.</h1>
+
+    <p class="lead">
+      AI-powered content creation and publishing for Telegram channel administrators.
+      Create news cards and prepare content for social media from your Telegram workflow.
+    </p>
+
+    <div class="buttons">
+      <a class="button primary" href="https://t.me/tiknewsopenbot">Open Telegram Bot</a>
+      <a class="button" href="privacy-policy.html">Privacy Policy</a>
+      <a class="button" href="terms-of-service.html">Terms of Service</a>
+    </div>
+
+    <section class="grid">
+      <article class="card">
+        <h2>AI Content Creation</h2>
+        <p>Transform Telegram news into structured social-media content with AI-assisted generation.</p>
+      </article>
+
+      <article class="card">
+        <h2>News Cards</h2>
+        <p>Generate visual news cards and carousel-ready content for social publishing.</p>
+      </article>
+
+      <article class="card">
+        <h2>Social Publishing</h2>
+        <p>Connect supported social-media accounts and publish approved content through official APIs.</p>
+      </article>
+    </section>
+
+    <footer>
+      <div>© 2026 Tik News Open Bot</div>
+      <div style="margin-top:10px">
+        <a href="privacy-policy.html">Privacy Policy</a>
+        <a href="terms-of-service.html">Terms of Service</a>
+        <a href="https://t.me/tiknewsopenbot">Telegram</a>
+      </div>
+    </footer>
+  </main>
+</body>
+</html>
